@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>txt</string>
+		<string>cfg</string>
+	</array>
+	<key>name</key>
+	<string>Cisco</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\s*no </string>
+			<key>name</key>
+			<string>invalid.illegal.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>access-list</string>
+			<key>name</key>
+			<string>support.function.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>crypto </string>
+			<key>name</key>
+			<string>string.unquoted.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>any</string>
+			<key>name</key>
+			<string>string.unquoted.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>deny </string>
+			<key>name</key>
+			<string>support.constant.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>permit </string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>object-group</string>
+			<key>name</key>
+			<string>markup.list.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>object</string>
+			<key>name</key>
+			<string>markup.list.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>host</string>
+			<key>name</key>
+			<string>markup.list.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>!(.*)</string>
+			<key>name</key>
+			<string>comment.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>static</string>
+			<key>name</key>
+			<string>constant.numeric.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>tunnel-group</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\d+\.\d+\.\d+\.\d+</string>
+			<key>name</key>
+			<string>constant.cisco</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.cisco</string>
+	<key>uuid</key>
+	<string>f3ba50f0-2bad-48b7-9509-f6d72e353ddb</string>
+</dict>
+</plist>

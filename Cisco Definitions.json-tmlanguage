@@ -1,0 +1,58 @@
+{ "name": "Cisco",
+  "scopeName": "text.cisco",
+  "fileTypes": ["txt","cfg"],
+  "patterns": [
+
+	{ "match": "^\\s*no ",
+	  "name": "invalid.illegal.cisco"
+	},
+
+	{ "match": "access-list",
+	  "name": "support.function.cisco"
+	},
+
+	{ "match": "crypto ",
+	  "name": "string.unquoted.cisco"
+	},
+	{ "match": "any",
+	  "name": "string.unquoted.cisco"
+	},
+	{ "match": "deny ",
+	  "name": "support.constant.cisco"
+	},
+
+	{ "match": "permit ",
+	  "name": "constant.character.escape.cisco"
+	},
+	{ "match": "object-group",
+	  "name": "markup.list.cisco"
+	},
+	{ "match": "object",
+	  "name": "markup.list.cisco"
+	},
+
+
+	{ "match": "host",
+	  "name": "markup.list.cisco"
+	},
+
+	{ "match": "!(.*)",
+	  "name": "comment.cisco"
+	},
+
+	{ "match": "static",
+	  "name": "constant.numeric.cisco"
+	},
+
+	{ "match": "tunnel-group",
+	  "name": "support.class.cisco"
+	},
+
+	{ "match": "\\d+\\.\\d+\\.\\d+\\.\\d+",
+      "name": "constant.cisco"
+    }
+
+  
+  ],
+  "uuid": "f3ba50f0-2bad-48b7-9509-f6d72e353ddb"
+}
