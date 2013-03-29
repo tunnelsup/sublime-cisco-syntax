@@ -85,6 +85,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>crypto</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\d+\.\d+\.\d+\.\d+</string>
 			<key>name</key>
 			<string>constant.cisco</string>

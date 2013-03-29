@@ -47,6 +47,10 @@
 	{ "match": "tunnel-group",
 	  "name": "support.class.cisco"
 	},
+	
+	{ "match": "crypto",
+	  "name": "support.class.cisco"
+	},
 
 	{ "match": "\\d+\\.\\d+\\.\\d+\\.\\d+",
       "name": "constant.cisco"
