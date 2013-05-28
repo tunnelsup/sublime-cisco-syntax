@@ -1,6 +1,6 @@
 { "name": "Cisco",
   "scopeName": "text.cisco",
-  "fileTypes": ["txt","cfg"],
+  "fileTypes": ["asa","ios"],
   "patterns": [
 
 	{ "match": "^\\s*no ",
