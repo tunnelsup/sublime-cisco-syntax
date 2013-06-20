@@ -4,8 +4,8 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>asa</string>
-		<string>ios</string>
+		<string>cfg</string>
+		<string>txt</string>
 	</array>
 	<key>name</key>
 	<string>Cisco</string>
