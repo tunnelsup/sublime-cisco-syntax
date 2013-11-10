@@ -93,7 +93,13 @@
 			<key>match</key>
 			<string>\d+\.\d+\.\d+\.\d+</string>
 			<key>name</key>
-			<string>constant.cisco</string>
+			<string>constant.numeric.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[0-9a-fA-F]{0,4}:([0-9a-fA-F]{0,4}:)+[0-9a-fA-F]{0,4}</string>
+			<key>name</key>
+			<string>constant.numeric.cisco</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
