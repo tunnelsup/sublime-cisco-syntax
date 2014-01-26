@@ -35,7 +35,7 @@
 	  "name": "markup.list.cisco"
 	},
 
-	{ "match": "^!(.*)",
+	{ "match": "^[\s]*!(.*)",
 	  "name": "comment.cisco"
 	},
 
