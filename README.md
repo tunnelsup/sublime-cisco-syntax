@@ -26,4 +26,3 @@ If you wish to customize this even further for your own needs navigate to the Ci
 ## Further Reading
 See official website for further information and discussion.
 [http://www.tunnelsup.com/tup/2013/03/29/sublime-text-2-cisco-syntax-and-snippets](http://www.tunnelsup.com/tup/2013/03/29/sublime-text-2-cisco-syntax-and-snippets)
- 
