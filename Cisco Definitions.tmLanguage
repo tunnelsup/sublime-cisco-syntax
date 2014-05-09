@@ -67,7 +67,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>!(.*)</string>
+			<string>^[\s]*!(.*)</string>
 			<key>name</key>
 			<string>comment.cisco</string>
 		</dict>
@@ -91,6 +91,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
+<<<<<<< HEAD
 			<string>remark (.*)</string>
 			<key>name</key>
 			<string>comment.cisco</string>
@@ -99,6 +100,10 @@
 			<key>match</key>
 			<string>\d+\.\d+\.\d+\.\d+(/\d{1,2})?</string>
 			<key>name</key>
+=======
+			<string>\d+\.\d+\.\d+\.\d+(/\d{1,2})?</string>
+			<key>name</key>
+>>>>>>> 3cf2598cb8640974e25bbb788ef1a0586335fa08
 			<string>constant.numeric.cisco</string>
 		</dict>
 		<dict>

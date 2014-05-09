@@ -31,12 +31,11 @@
 	  "name": "markup.list.cisco"
 	},
 
-
 	{ "match": "host",
 	  "name": "markup.list.cisco"
 	},
 
-	{ "match": "!(.*)",
+	{ "match": "^[\s]*!(.*)",
 	  "name": "comment.cisco"
 	},
 
@@ -47,7 +46,7 @@
 	{ "match": "tunnel-group",
 	  "name": "support.class.cisco"
 	},
-	
+
 	{ "match": "crypto",
 	  "name": "support.class.cisco"
 	},
