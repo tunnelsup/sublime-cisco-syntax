@@ -52,10 +52,17 @@
 	  "name": "support.class.cisco"
 	},
 
-	{ "match": "\\d+\\.\\d+\\.\\d+\\.\\d+",
-      "name": "constant.cisco"
-    }
+	{ "match": "remark (.*)",
+	  "name": "comment.cisco"
+	},
 
+	{ "match": "\\d+\\.\\d+\\.\\d+\\.\\d+(/\\d{1,2})?",
+		"name": "constant.numeric.cisco"
+	},
+
+	{ "match": "[0-9a-fA-F]{0,4}:([0-9a-fA-F]{0,4}:)+[0-9a-fA-F]{0,4}(/\\d{1,3})?",
+		"name": "constant.numeric.cisco"
+	}
   
   ],
   "uuid": "f3ba50f0-2bad-48b7-9509-f6d72e353ddb"
