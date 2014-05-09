@@ -35,10 +35,9 @@
 	  "name": "markup.list.cisco"
 	},
 
-	{ "match": "^[\s]*!(.*)",
+	{ "match": "^[\\s]*!(.*)",
 	  "name": "comment.cisco"
 	},
-
 	{ "match": "static",
 	  "name": "constant.numeric.cisco"
 	},
@@ -49,10 +48,6 @@
 
 	{ "match": "crypto",
 	  "name": "support.class.cisco"
-	},
-
-	{ "match": "remark (.*)",
-	  "name": "comment.cisco"
 	},
 
 	{ "match": "\\d+\\.\\d+\\.\\d+\\.\\d+(/\\d{1,2})?",
